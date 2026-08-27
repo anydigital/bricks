@@ -10,5 +10,5 @@
   "devDependencies": {
     "prettier-plugin-jinja-template": "^2.1.0"
   },
-  "===": "METADATA-ONLY FILE, see starter subfolders"
+  "---": "METADATA-ONLY FILE, see starter subfolders"
 }

@@ -19,7 +19,7 @@
   "devDependencies": {
     "serve": "^14.2.5"
   },
-  "=== SITE GLOBALS": "===",
+  "--- SITE GLOBALS": "---",
   "site": {
     "author": {
       "name": "Shotpipe"
@@ -31,5 +31,5 @@
     ],
     "title": "Build Awesome Shotpipe Micro-Starter"
   },
-  "===": "==="
+  "---": "---"
 }

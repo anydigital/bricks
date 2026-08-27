@@ -21,7 +21,7 @@
   "devDependencies": {
     "serve": "^14.2.5"
   },
-  "=== SITE GLOBALS": "===",
+  "--- SITE GLOBALS": "---",
   "site": {
     "base": "https://tw.build.blades.ninja",
     "body_attrs": "class='prose lg:prose-xl xl:prose-2xl'",
@@ -31,5 +31,5 @@
     ],
     "title": "Build Awesome Tailwind Micro-Starter"
   },
-  "===": "==="
+  "---": "---"
 }
