@@ -3,7 +3,7 @@
   "name": "shotpipe",
   "type": "module",
   "scripts": {
-    "cli": "clear; npm -C cli run",
+    "cli": "clear; npm -C .cli/ run",
     "start": "npm run cli -- start",
     "stage": "npm run cli -- stage",
     "build": "npm run cli -- build"
