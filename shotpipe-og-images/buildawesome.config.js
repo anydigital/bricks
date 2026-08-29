@@ -1,5 +1,5 @@
 import fs from "node:fs";
-import kitConfig from "@anyblades/buildawesome-kit-config";
+import oneConfig from "@buildawesome.one/config";
 import shotpipePlugin from "eleventy-plugin-shotpipe";
 
 if (fs.existsSync(".env")) {
@@ -7,7 +7,7 @@ if (fs.existsSync(".env")) {
 }
 
 export default async function ($config) {
-  await kitConfig($config);
+  await oneConfig($config);
 
   $config.addPlugin(shotpipePlugin, {
     key: process.env.SHOTPIPE_KEY,

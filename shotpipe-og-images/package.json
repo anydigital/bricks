@@ -2,22 +2,14 @@
   "private": true,
   "name": "shotpipe",
   "type": "module",
-  "workspaces": [
-    "scripts"
-  ],
   "scripts": {
-    "scripts": "clear; npm -w scripts run",
-    "start": "npm run scripts -- start",
-    "stage": "npm run scripts -- stage",
-    "build": "npm run scripts -- build"
+    "cli": "clear; npm -C cli run",
+    "start": "npm run cli -- start",
+    "stage": "npm run cli -- stage",
+    "build": "npm run cli -- build"
   },
   "dependencies": {
-    "@anyblades/buildawesome-kit-config": "^1.4.0",
-    "@awesome.me/buildawesome": "^4.0.0-0",
     "eleventy-plugin-shotpipe": "^0.2.0"
-  },
-  "devDependencies": {
-    "serve": "^14.2.5"
   },
   "--- SITE GLOBALS": "---",
   "site": {
@@ -27,7 +19,7 @@
     "base": "https://shot.build.blades.ninja",
     "footer": "Powered by <object data='https://build.blades.ninja/gh.svg' class='dark-auto'></object>",
     "styles": [
-      "https://cdn.jsdelivr.net/npm/@anyblades/blades@2/css/blades.css?min=0"
+      "//cdn.jsdelivr.net/npm/@anyblades/blades@2/css/blades.min.css"
     ],
     "title": "Build Awesome Shotpipe Micro-Starter"
   },
