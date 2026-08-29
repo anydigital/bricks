@@ -17,5 +17,5 @@
     "prettier-plugin-jinja-template": "^2.1.0",
     "serve": "^14.2.5"
   },
-  "---": "METADATA-ONLY FILE, see starter subfolders"
+  "---": "---"
 }
