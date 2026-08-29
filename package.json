@@ -1,14 +1,19 @@
 {
   "private": true,
-  "name": "@anyblades/buildawesome-micro-starters",
+  "name": "@buildawesome.one/examples.monorepo",
   "version": "1.4.0",
   "license": "MIT",
   "type": "module",
+  "workspaces": [
+    "multisite/"
+  ],
   "dependencies": {
-    "@awesome.me/buildawesome": "^4.0.0-0"
+    "@awesome.me/buildawesome": "^4.0.0-0",
+    "@buildawesome.one/config": "^1.4.0"
   },
   "devDependencies": {
-    "prettier-plugin-jinja-template": "^2.1.0"
+    "prettier-plugin-jinja-template": "^2.1.0",
+    "serve": "^14.2.5"
   },
   "---": "METADATA-ONLY FILE, see starter subfolders"
 }

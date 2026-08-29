@@ -1,22 +1,12 @@
 {
   "private": true,
-  "name": "micro",
+  "name": "multisite",
   "type": "module",
-  "workspaces": [
-    "scripts"
-  ],
   "scripts": {
-    "scripts": "clear; BA_OPTIONS=\"--input=${IN} --config=node_modules/@anyblades/buildawesome-kit-config/buildawesome.config.js\" npm -w scripts run",
-    "start": "npm run scripts -- start",
-    "stage": "npm run scripts -- stage",
-    "build": "npm run scripts -- build"
-  },
-  "dependencies": {
-    "@anyblades/buildawesome-kit-config": "^1.4.0",
-    "@awesome.me/buildawesome": "^4.0.0-0"
-  },
-  "devDependencies": {
-    "serve": "^14.2.5"
+    "cli": "clear; BA_OPTIONS=\"--input ${SITE:-blades-css} --config ../node_modules/@buildawesome.one/config/buildawesome.config.js\" npm -C .cli run",
+    "start": "npm run cli -- start",
+    "stage": "npm run cli -- stage",
+    "build": "npm run cli -- build"
   },
   "--- SITE GLOBALS": "---",
   "site": {
