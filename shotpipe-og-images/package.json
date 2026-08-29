@@ -19,7 +19,7 @@
     "base": "https://shot.build.blades.ninja",
     "footer": "Powered by <object data='https://build.blades.ninja/gh.svg' class='dark-auto'></object>",
     "styles": [
-      "//cdn.jsdelivr.net/npm/@anyblades/blades@2/css/blades.min.css"
+      "https://cdn.jsdelivr.net/npm/@anyblades/blades@2/css/blades.min.css"
     ],
     "title": "Build Awesome Shotpipe Micro-Starter"
   },
