@@ -1,0 +1,3 @@
+[build]
+  command = "npm -C shotpipe-og-images/ run build"
+  publish = "_site"

@@ -1,0 +1,3 @@
+[build]
+  command = "npm -C tailwind/ run build"
+  publish = "_site"
