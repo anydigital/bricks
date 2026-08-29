@@ -2,24 +2,16 @@
   "private": true,
   "name": "tailwind",
   "type": "module",
-  "workspaces": [
-    "scripts"
-  ],
   "scripts": {
-    "scripts": "clear; BA_OPTIONS=--config=node_modules/@anyblades/buildawesome-kit-config/buildawesome.config.js TW_OPTIONS='--input=styles.css --output=_public/styles.css' npm -w scripts run",
-    "start": "npm run scripts -- start:with-tw",
-    "stage": "npm run scripts -- stage",
-    "build": "npm run scripts -- build"
+    "cli": "clear; BA_OPTIONS=--config=../node_modules/@buildawesome.one/config/buildawesome.config.js TW_OPTIONS='--input styles.css --output _public/styles.css' npm -C cli run",
+    "start": "npm run cli -- start:with-tw",
+    "stage": "npm run cli -- stage",
+    "build": "npm run cli -- build"
   },
   "dependencies": {
-    "@anyblades/buildawesome-kit-config": "^1.4.0",
-    "@awesome.me/buildawesome": "^4.0.0-0",
     "@tailwindcss/cli": "^4.1.18",
     "@tailwindcss/typography": "^0.5.19",
     "tailwindcss": "^4.1.18"
-  },
-  "devDependencies": {
-    "serve": "^14.2.5"
   },
   "--- SITE GLOBALS": "---",
   "site": {

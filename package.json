@@ -5,7 +5,8 @@
   "license": "MIT",
   "type": "module",
   "workspaces": [
-    "multisite/"
+    "multisite/",
+    "tailwind/"
   ],
   "dependencies": {
     "@awesome.me/buildawesome": "^4.0.0-0",
