@@ -1,0 +1,3 @@
+[build]
+  command = "npm -C og-images/ run build"
+  publish = "og-images/_site/"

@@ -6,8 +6,8 @@
   "type": "module",
   "workspaces": [
     "multisite/",
-    "tailwind/",
-    "shotpipe-og-images/"
+    "og-images/",
+    "tailwind/"
   ],
   "dependencies": {
     "@awesome.me/buildawesome": "^4.0.0-0",
