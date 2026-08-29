@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "precli": "[ -t 1 ] && clear || true",
-    "cli": "BA_OPTIONS=\"--input ${SITE:-blades-css} --config ../node_modules/@buildawesome.one/config/buildawesome.config.js\" npm -C .cli/ run",
+    "cli": "BA_OPTIONS=\"--input ${SITE:-pico-blades} --config ../node_modules/@buildawesome.one/config/buildawesome.config.js\" npm -C .cli/ run",
     "start": "npm run cli -- start",
     "stage": "npm run cli -- stage",
     "build": "npm run cli -- build"
