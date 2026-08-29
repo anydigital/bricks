@@ -11,7 +11,7 @@
   ],
   "dependencies": {
     "@awesome.me/buildawesome": "^4.0.0-0",
-    "@buildawesome.one/config": "^1.4.0"
+    "@buildawesome.one/config": "^1.4.1-0"
   },
   "devDependencies": {
     "prettier-plugin-jinja-template": "^2.1.0",
