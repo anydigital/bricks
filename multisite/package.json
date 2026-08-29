@@ -3,7 +3,7 @@
   "name": "multisite",
   "type": "module",
   "scripts": {
-    "cli": "clear; BA_OPTIONS=\"--input ${SITE:-blades-css} --config ../node_modules/@buildawesome.one/config/buildawesome.config.js\" npm -C .cli run",
+    "cli": "clear; BA_OPTIONS=\"--input ${SITE:-blades-css} --config ../node_modules/@buildawesome.one/config/buildawesome.config.js\" npm -C .cli/ run",
     "start": "npm run cli -- start",
     "stage": "npm run cli -- stage",
     "build": "npm run cli -- build"
