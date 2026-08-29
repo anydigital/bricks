@@ -4,9 +4,9 @@
   "type": "module",
   "scripts": {
     "cli": "clear; BA_OPTIONS=--config=../node_modules/@buildawesome.one/config/buildawesome.config.js TW_OPTIONS='--input styles.css --output _public/styles.css' npm -C .cli/ run",
-    "start": "npm run cli -- start:with-tw",
-    "stage": "npm run cli -- stage",
-    "build": "npm run cli -- build"
+    "start": "npm run cli -- start+tw",
+    "stage": "npm run cli -- stage+tw",
+    "build": "npm run cli -- build+tw"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.18",
