@@ -3,7 +3,8 @@
   "name": "tailwind",
   "type": "module",
   "scripts": {
-    "cli": "clear; BA_OPTIONS=--config=../node_modules/@buildawesome.one/config/buildawesome.config.js TW_OPTIONS='--input styles.css --output _public/styles.css' npm -C .cli/ run",
+    "precli": "[ -t 1 ] && clear || true",
+    "cli": "BA_OPTIONS=--config=../node_modules/@buildawesome.one/config/buildawesome.config.js TW_OPTIONS='--input styles.css --output _public/styles.css' npm -C .cli/ run",
     "start": "npm run cli -- start+tw",
     "stage": "npm run cli -- stage+tw",
     "build": "npm run cli -- build+tw"
