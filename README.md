@@ -17,7 +17,7 @@ Example starters showcasing [Build Awesome _One_](//buildawesome.one/) kit for:
 
 <figure><!-- <img src> breaks shields w/ emojis on GitHub, but ![]() works -->
 
-| [1] Multisite Starter                                                                                  |                                                                                                                                   |
+| [1] [Multisite Starter](//github.com/buildawesome-one/examples/tree/main/multisite)                                                                                  |                                                                                                                                   |
 | ------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
 | [2] [*Bl*ades / Pico CSS](//pico-blades.buildawesome.one/) <!--{data-b=├── data-a="(default site)"}--> | ![](https://img.shields.io/netlify/41df6bc0-3b91-48f7-903a-3511ca3652a8?logo=&label=🥷)                                           |
 | [3] [Bootstrap](//bootstrap.buildawesome.one/) <!--{data-b=├──}-->                                     | ![](https://img.shields.io/netlify/e58db8aa-94b7-4637-80cc-50e03cff45b0?logo=bootstrap&logoColor=lavender&label=&labelColor=gray) |
