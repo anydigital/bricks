@@ -45,14 +45,14 @@ Example starters showcasing [Build Awesome _One_](//buildawesome.one/) kit for:
 As simple as:
 
 ```sh
-cd multisite/
+cd multisite/  # OR og-images/, OR tailwind/
 npm install    # dependencies
 npm start      # development
 npm run stage  # serve production version locally
                # ready to deploy! 🚀
 ```
 
-For specific site:
+Additionally, `multisite/` starter allows to switch sub-sites via `SITE=`:
 
 ```sh
 SITE=bootstrap npm start
