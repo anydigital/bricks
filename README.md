@@ -3,7 +3,7 @@ permalink: /
 tags: [11ty, buildawesome, micro, starter]
 ---
 
-# Build Awesome _One_ Examples
+# All-in-_One_ Examples
 
 <p>
   <img src="https://img.shields.io/github/v/release/buildawesome-one/examples?label=&color=darkslategray&style=for-the-badge">
