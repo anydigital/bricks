@@ -13,7 +13,7 @@
   "site": {
     "base": "https://micro.build.blades.ninja",
     "footer": "Powered by <object data='https://build.blades.ninja/gh.svg' class='dark-auto'></object>",
-    "title": "Build Awesome Micro-Starter[s]"
+    "title": "Multisite Starter"
   },
   "---": "---"
 }
