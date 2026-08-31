@@ -11,6 +11,8 @@ tags: [11ty, buildawesome, micro, starter]
   <object data="https://img.shields.io/github/stars/buildawesome-one/examples?label=GitHub&labelColor=silver&color=gainsboro&style=for-the-badge"></object><!-- won't render on GitHub -->
 </p>
 
+<!-- to copy-paste w/o formatting use any plain text input field, i.e. browser address bar -->
+
 Example starters showcasing [Build Awesome _One_](//buildawesome.one/) kit for:
 
 <figure><!-- <img src> breaks shields w/ emojis on GitHub, but ![]() works -->
