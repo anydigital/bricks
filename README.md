@@ -95,15 +95,3 @@ With no key set, the site still builds — the card is simply omitted until you 
 
 - https://github.com/podop29/eleventy-plugin-shotpipe
 - https://shotpipe.io
-
----
-
-## <sup style>Featured by</sup>
-
-- https://www.11ty.dev/docs/starter/
-- https://sveltiacms.app/en/docs/frameworks/eleventy
-- https://build.blades.ninja/starters/
-- https://11tybundle.dev/starters/
-- [awesome-buildawesome](https://github.com/anyblades/awesome-buildawesome)
-
-<!--{.columns}-->
